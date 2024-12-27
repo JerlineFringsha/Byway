@@ -9,7 +9,7 @@ const Header = () => {
   const isCoursePage = location.pathname.startsWith("/course");
   return (
     <>
-      <div className="bg-white p-4 shadow-lg">
+      <div className="bg-white p-4 border-b">
         <nav className="flex items-center justify-between">
           <div className="flex space-x-1 cursor-pointer">
             <Link to="/" className="flex space-x-1 cursor-pointer">
