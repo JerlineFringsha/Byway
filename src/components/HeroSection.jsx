@@ -8,7 +8,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold mb-4">
           Unlock Your Potential with Byway
         </h1>
-        <p className="mb-4 text-gray-400 text-base md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
+        <p className="mb-4 text-[#334155] text-base md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
           Welcome to Byway, where learning knows no bounds. We believe that
           education is the key to personal and professional growth, and we are
           here to guide you on your journey to success.
