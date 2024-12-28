@@ -12,7 +12,7 @@ const Tab = () => {
   return (
     <>
       {/* Tab Navigation */}
-      <div className="grid grid-cols-4 xs:grid-cols-2 ss:grid-cols-4 gap-4 px-4 md:px-8 py-4 lg:absolute lg:top-[95%] lg:z-10">
+      <div className="grid grid-cols-4 xs:grid-cols-2 ss:grid-cols-4 gap-4 p-4 md:px-8  lg:absolute lg:top-[80%] lg:z-10">
         <Link
           to="Description"
           smooth={true}

@@ -1,5 +1,3 @@
-
-
 const Description = () => {
   return (
     <>
@@ -7,7 +5,7 @@ const Description = () => {
         <h4 className="font-bold text-lg">Course Description</h4>
         <p className="pb-4">
           This interactive e-learning course will introduce you to User
-          Experience (UX) design, the art of creatingproducts and services that
+          Experience (UX) design, the art of creating products and services that
           are intuitive, enjoyable and user-friendly. Gain a solid foundation in
           UX principless and learn to apply them in real-world scenerios through
           engaging modules and interactive exercises.
@@ -22,10 +20,6 @@ const Description = () => {
           opportunities in your chosen field.
         </p>
       </div>
-
-      
-     
-      
     </>
   );
 };

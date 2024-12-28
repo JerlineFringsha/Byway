@@ -80,7 +80,8 @@ const Testimony = () => {
       <Slider ref={sliderRef} {...settings}>
         {testimonies.map((testimony) => (
           <div key={testimony.id} className="p-2">
-            <div className="border rounded-xl shadow-lg p-4 ">
+            <div className="border rounded-xl p-4 "
+            style={{boxShadow: "0px 0px 8px 0px #3B82F61F"}}>
               <img src={testimony.image} alt="quotes" />
               <p className="text-md text-gray-700 my-6">
                 {testimony.text}

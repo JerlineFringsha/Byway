@@ -1,10 +1,9 @@
 import learner from "../assets/model-6.jpg";
 import instructor from "../assets/model-4.jpg";
 import rightarr from "../assets/arrow-right.svg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
-
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
@@ -28,7 +27,9 @@ const Checkout = () => {
             </p>
             <Link to="/course" onClick={handleClick}>
               <div className="flex space-x-2 w-fit my-2 bg-black p-4 rounded-xl text-white">
-                <p>Start Your Instructor Journey</p>
+                <p style={{ padding: "13px 24px " }}>
+                  Start Your Instructor Journey
+                </p>
                 <img src={rightarr} alt="arrow" />
               </div>
             </Link>
@@ -48,7 +49,7 @@ const Checkout = () => {
             </p>
             <Link to="/course" onClick={handleClick}>
               <div className="flex space-x-2 w-fit my-2 bg-black p-4 rounded-xl text-white">
-                <p>Checkout Courses</p>
+                <p style={{ padding: "13px 24px " }}>Checkout Courses</p>
                 <img src={rightarr} alt="arrow" />
               </div>
             </Link>

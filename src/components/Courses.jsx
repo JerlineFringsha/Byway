@@ -38,8 +38,11 @@ const Courses = () => {
           {courses.map((course) => (
             <div
               key={course.id}
-              className="p-4 border rounded-xl shadow cursor-pointer"
+              className="p-4 border rounded-xl  cursor-pointer"
               onClick={() => handleClick(course.id)}
+              style={{boxShadow: "0px 0px 8px 0px #3B82F61F"}}
+              
+              
             >
               <img
                 src={course.image}

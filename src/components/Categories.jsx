@@ -43,8 +43,9 @@ const Categories = () => {
         <div className="flex justify-between py-4">
           <h4 className="m-2 font-bold text-xl sm:text-2xl">Top Categories</h4>
           <p className="text-blue-600 font-semibold cursor-pointer hover:underline">
-            <Link to="/course"
-            onClick={handleScroll}>See All </Link>
+            <Link to="/course" onClick={handleScroll}>
+              See All{" "}
+            </Link>
           </p>
         </div>
 
@@ -53,7 +54,8 @@ const Categories = () => {
           {data.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col items-center bg-white text-center rounded-xl shadow p-6"
+              className="flex flex-col items-center bg-white text-center rounded-xl  p-6 cursor-pointer"
+              style={{ boxShadow: "0px 0px 8px 0px #3B82F61F" }}
             >
               <div className="bg-blue-100 rounded-full p-4 mb-4">
                 <img src={item.icon} alt={item.name} className="w-12 h-12" />

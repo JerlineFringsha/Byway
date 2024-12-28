@@ -11,7 +11,7 @@ const CoursePage = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <Breadcrumbs />
+        <Breadcrumbs className="bg-black" />
         <Introduction />
         <Tab />
         <Testimony />

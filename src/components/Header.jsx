@@ -9,7 +9,7 @@ const Header = () => {
   const isCoursePage = location.pathname.startsWith("/course");
   return (
     <>
-      <div className="bg-white p-4 border-b">
+      <div className=" p-4 border-b px-12">
         <nav className="flex items-center justify-between">
           <div className="flex space-x-1 cursor-pointer">
             <Link to="/" className="flex space-x-1 cursor-pointer">
@@ -30,11 +30,13 @@ const Header = () => {
             ) : (
               <>
                 <img src={cart} alt="Cart" className="w-6 h-6 sm:w-8 sm:h-8" />
-                <a href="#">
-                  <button className="px-4 py-2 border">Log In</button>
+                <a href="#" className="block sm:inline">
+                  <button className="w-full sm:w-auto px-4 py-2 border text-sm sm:text-base">
+                    Log In
+                  </button>
                 </a>
-                <a href="#">
-                  <button className="px-4 py-2 border bg-gray-900 text-white">
+                <a href="#" className="block sm:inline">
+                  <button className="w-full sm:w-auto px-4 py-2 border bg-gray-900 text-white text-sm sm:text-base">
                     Sign Up
                   </button>
                 </a>
@@ -43,26 +45,6 @@ const Header = () => {
           </div>
         </nav>
       </div>
-      {/* <div className="bg-white-800 p-4  shadow-lg">
-        <nav className="flex items-center justify-between">
-          <div className="flex space-x-1">
-            <img src="/logo.svg" alt="logo" className=""></img>
-            <h3 className="text-gray-600 text-xl font-semibold"> Byway</h3>
-          </div>
-
-          <div className="flex sm:flex-row sm:space-x-2 space-y-4 sm:space-y-0 items-center">
-            <img src={cart} alt="cart" className="w-6 h-6 sm:w-8 sm:h-8" />
-            <a href="#">
-              <button className=" px-4 py-2  border">
-                Log In
-              </button>
-            </a>   
-            <a href="#">       
-            <button className="px-4 py-2 border bg-gray-900 text-white">Sign Up</button>
-            </a> 
-          </div>
-        </nav>
-      </div> */}
     </>
   );
 };

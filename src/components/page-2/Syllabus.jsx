@@ -23,7 +23,7 @@ const Syllabus = () => {
 
   return (
     <>
-      <div className=" py-8 rounded-md ">
+      <div className=" py-8 rounded-md w-full lg:w-3/4 ">
         <h2 className="text-2xl font-bold mb-4">Syllabus</h2>
 
         {Array.isArray(data) && data.length > 0 ? (

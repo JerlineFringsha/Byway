@@ -1,7 +1,7 @@
 const Breadcrumbs = () => {
-    return (
-      <>
-      <nav className="text-sm text-gray-600 px-8 py-4 sm:px-4 sm:py-2">
+  return (
+    <>
+      <nav className="text-sm text-gray-600 px-8 mx-4 py-8 sm:px-4 sm:py-2">
         <ul className="flex flex-wrap items-center space-x-2">
           {/* Home Link */}
           <li>
@@ -29,9 +29,8 @@ const Breadcrumbs = () => {
           </li>
         </ul>
       </nav>
-      </>
-    );
-  };
-  
-  export default Breadcrumbs;
-  
+    </>
+  );
+};
+
+export default Breadcrumbs;

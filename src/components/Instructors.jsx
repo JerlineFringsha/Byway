@@ -36,11 +36,12 @@ const Instructors = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6 md:gap-8 lg:gap-10">
           {instructors.map((instructor) => (
             <div
               key={instructor.id}
-              className="flex flex-col"
+              className="flex flex-col cursor-pointer"
+              style={{boxShadow: "0px 0px 8px 0px #3B82F61F"}}
               onClick={handleClick}
             >
               <div className="border rounded-lg shadow-lg overflow-hidden ">
@@ -66,10 +67,7 @@ const Instructors = () => {
             </div>
           ))}
 
-          <Link
-            ref={linkRef}
-            to="/course"
-          />
+          <Link ref={linkRef} to="/course" />
         </div>
       </div>
     </>
